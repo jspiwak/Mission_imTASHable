@@ -1,0 +1,55 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+    <div class = "container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div id="plot">
+
+                        <h2>Number of Streams Per Genre</h2>
+                        <hr>
+                            <div class="btn-group">
+                                <button>
+                                <a href="charts/index.html">Click To View Interactive Graph</a>
+                                </button>
+                            </div>
+                        <br>
+                        <br>
+                        <img src="/static/images/genre.png" alt="Genre Graph" style="width:650px;height:500px;" class="bottom2">
+                        <img src="/static/images/tash3.jpg" alt="tash background photo" style="width:630px;height:450;" class="top2">
+                        <br>
+                        <br>  
+                        </div>      
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                        <div class="panel-body">                                    
+                            <h2>Visualizations</h2>
+                            <hr>
+
+                            <div class="row" >
+                                
+                                <a href="charts/index.html">GENRES</a>
+                                <br>
+                                <br>
+                                <a href="charts/index2.html">COUNTRIES</a>
+                                <br>
+                                <br>
+                                <a href="us_map/index.html">USA MAP</a>
+                                <br>
+                                <br>
+                                <a href="audio_analysis/Dropdown to update bar chart.html">AUDIO ANALYSIS</a>
+
+                            </div>
+                                
+                        </div>
+                </div>     
+            </div>    
+    </div>
+   </div> 
+   {% endblock %}

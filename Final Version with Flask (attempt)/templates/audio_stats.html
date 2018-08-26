@@ -1,0 +1,54 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+
+    <div class = "container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+
+                    <h2>Audio Analysis</h2>
+                    <hr>
+                        <div class="btn-group">
+                            <button>
+                            <a href="audio_analysis/Dropdown to update bar chart.html">Click to View Interactive Graph</a>
+                            </button>
+                        </div>
+                        
+                    <br>
+                        <img src="/static/images/audio.png" alt="Audio Analysis" style="width:600px;height:450px;">
+                    <br>
+                    <!-- <p class = "text"> ADD OPTIONAL TEXT HERE </p> -->
+                    <br>        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                        <div class="panel-body">                                    
+                            <h2>Visualizations</h2>
+                            <hr>
+
+                            <div class="row" >
+                                
+                                <a href="charts/index.html">GENRES</a>
+                                <br>
+                                <br>
+                                <a href="charts/index2.html">COUNTRIES</a>
+                                <br>
+                                <br>
+                                <a href="us_map/index.html">USA MAP</a>
+                                <br>
+                                <br>
+                                <a href="audio_analysis/Dropdown to update bar chart.html">AUDIO ANALYSIS</a>
+
+                            </div>
+                                
+                        </div>
+                </div>     
+            </div>    
+    </div>
+   </div>
+   {% endblock %}
